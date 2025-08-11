@@ -11,7 +11,7 @@ function App() {
   const [leftAppleCount, setLeftAppleCount] = useState(
     totalApple - rightAppleCount
   );
-
+  
   const leftClickHandler = () => {
     if (rightAppleCount > 0) {
       setLeftAppleCount(leftAppleCount + 1);
